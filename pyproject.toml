@@ -1,0 +1,20 @@
+[project]
+name = "glowing-waffle"
+version = "0.1.0"
+description = "Sentiment analysis on movie reviews"
+requires-python = ">=3.12"
+
+dependencies = [
+    "pandas==2.2.3",
+    "scikit-learn==1.5.2",
+    "llama-cpp-python==0.3.2",
+    "ipython>=8.29",
+    "ipykernel>=6.29",
+    "huggingface-hub==0.26.2",
+    "matplotlib>=3.9",
+    "langdetect>=1.0.9",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
