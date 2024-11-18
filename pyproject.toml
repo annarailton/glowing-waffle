@@ -13,6 +13,11 @@ dependencies = [
     "huggingface-hub==0.26.2",
     "matplotlib>=3.9",
     "langdetect>=1.0.9",
+    "pyarrow>=10.0.1",
+    "dask==2024.11.2",
+    "swifter==1.4.0",
+    "transformers==4.46.2",
+    "langdetect==1.0.9"
 ]
 
 [build-system]
